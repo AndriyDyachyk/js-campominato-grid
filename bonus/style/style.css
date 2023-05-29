@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, main{
+    display: flex;
+}
+
+main{
+    flex-wrap: wrap;
+}
+
+body{
+    align-items: center ;
+    text-align: center;
+    flex-direction: column;
+}
+
+button{
+ width: 200px;
+ height: 30px;
+ margin: 20px auto;
+}
+
+#grid{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square{
+    background-color: grey;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.square.clicked{
+    background-color: lightskyblue;
+    
+}
